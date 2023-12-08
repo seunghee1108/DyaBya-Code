@@ -28,6 +28,7 @@ const memberData = {
   },
 };
 
+// 유효성 검사
 export function dataCheck(firstName) {
   const url = memberData[firstName].url;
   const hobby = memberData[firstName].hobby;

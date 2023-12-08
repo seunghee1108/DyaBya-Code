@@ -6,7 +6,8 @@ export function createMemo(title, content, timestamp) {
     saveBtn: document.getElementById("saveBtn"),
     memoList: document.getElementById("memo-list"),
   }
-  
+
+   // memo-item 동적으로 생성
   const memo = document.createElement("div");
   memo.classList.add("memo-item");
 
